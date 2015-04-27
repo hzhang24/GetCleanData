@@ -6,20 +6,34 @@ This file describes the variables, the data, and any transformations or work tha
 2. The data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 3. The run_analysis.R script performs the following steps to clean the data:
     a. Merges the training and the test sets to create one data set
+
     b. Extracts only the measurements on the mean and standard deviation for each measurement
+    
     c. Uses descriptive activity names to name the activities in the data set
+    
     d. Appropriately labels the data set with descriptive variable names
+    
     e. Creates a second, independent tidy data set with the average of each variable for each activity and each subject
+    
 4. The dataset includes the following files:
 'README.txt'
+
 'features_info.txt': Shows information about the variables used on the feature vector.
+
 'features.txt': List of all features.
+
 'activity_labels.txt': Links the class labels with their activity name.
+
 'train/X_train.txt': Training set.
+
 'train/y_train.txt': Training labels.
+
 'test/X_test.txt': Test set.
+
 'test/y_test.txt': Test labels.
+
 5. The following files are available for the train and test data. Their descriptions are equivalent.
+6. 
 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis.
